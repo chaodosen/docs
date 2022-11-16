@@ -16,6 +16,7 @@
   "author": "coderzds",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "moment": "^2.29.4",
     "vuepress": "^1.9.7",
     "vuepress-plugin-auto-sidebar": "^2.3.2"

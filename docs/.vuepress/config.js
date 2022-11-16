@@ -17,7 +17,8 @@ module.exports = {
               return moment(timestamp).calendar()
             }
           }
-        ]
+        ],
+        ['@vuepress/back-to-top']
       ],
     themeConfig: {
         logo: '/assets/img/icon.ico',
