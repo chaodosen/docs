@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "study space",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderzds/docs.git"
+  },
+  "keywords": [],
+  "author": "coderzds",
+  "license": "ISC",
+  "devDependencies": {
+    "moment": "^2.29.4",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/coderzds/docs/issues"
+  },
+  "homepage": "https://github.com/coderzds/docs#readme"
+}
