@@ -1,45 +1,17 @@
-const moment = require('moment')
-moment.locale("zh-cn")
+const pluginConfig = require("./config/plugin")
+const headConfig = require("./config/head")
+const nav = require("./config/nav")
+const sidebar = require("./config/sidebar")
 module.exports = {
     base: "/docs/",
     title: "石头屋",
     description: "太平洋比基尼海滩比奇堡贝克街126号石头下面",
-    head: [
-        ['link',{rel: 'icon',href: '/assets/img/icon.ico'}],
-        ['meta',{name: 'author',content: 'coderzds'}],
-        ['meta',{name: 'Keywords',content: '海绵宝宝,派大星'}],
-    ],
-    plugins: [
-        [
-          '@vuepress/last-updated',
-          {
-            transformer: (timestamp) => {
-              return moment(timestamp).calendar()
-            }
-          }
-        ],
-        ['@vuepress/back-to-top']
-      ],
+    head: headConfig,
+    plugins: pluginConfig,
     themeConfig: {
         logo: '/assets/img/icon.ico',
         lastUpdated: '最近更新',
-        nav: [
-            {text: 'Home',link: '/'},
-            {text: 'about',link: '/about/'},
-            {
-              text: 'blogs',
-              items: [
-                {
-                  text: 'test',link: '/blogs/2022/test'
-                }
-              ]
-            }
-        ],
-        sidebar: {
-            "/blogs/2022/": [
-                'test',
-                'test2'
-            ]
-        }
+        nav: nav,
+        sidebar: sidebar 
     }
 }
