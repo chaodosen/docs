@@ -6,5 +6,6 @@ module.exports = {
           return moment(timestamp).format("l HH:mm:ss dddd")
         }
     },
-    '@vuepress/back-to-top': true
+    '@vuepress/back-to-top': true,
+    '@vuepress/google-analytics': require('./google-analytics')
 }
