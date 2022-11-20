@@ -11,6 +11,7 @@ module.exports = {
         nav: require("./config/nav"),
         sidebar: require("./config/sidebar"),
         subSidebar: 'auto',
-        noFoundPageByTencent: false
+        noFoundPageByTencent: false,
+        valineConfig: require('./config/valineConfig')
     }
 }

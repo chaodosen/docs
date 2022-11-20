@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/coderzds/docs",
   "dependencies": {
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-theme-reco": "^1.6.16"
   }
 }
