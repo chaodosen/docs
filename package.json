@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/coderzds/docs/issues"
   },
-  "homepage": "https://github.com/coderzds/docs#readme"
+  "homepage": "https://github.com/coderzds/docs",
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.16"
+  }
 }
