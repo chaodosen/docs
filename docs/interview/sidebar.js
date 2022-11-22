@@ -5,7 +5,7 @@ module.exports = [
         children: [
             '/interview/Java',
             '/interview/MySQL',
-            '/interview/MultiThread',
+            '/interview/multi-thread',
             '/interview/Redis',
         ]
     }
