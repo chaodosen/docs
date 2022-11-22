@@ -451,7 +451,7 @@ System.out.println(str3==str4);//false
 - 常量池中相同的字符串只会有一个，但是new String（）每new一个对象就会在堆中新建一个对象，而不管这个值是否相同
 - str1和str3都指向字符串常量池中的“str”，所以str1==str2为true；
 
-![img](https://cdn.nlark.com/yuque/0/2022/png/25655069/1645167074227-5fc4b410-ec7b-467e-aa84-73be9964e5e2.png)
+![img](./img/Java-1.png)
 
 - String str =""在编译阶段就会在内存中创建；String str = new String("")是在运行时才会在堆中创建对象
 

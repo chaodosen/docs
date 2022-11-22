@@ -1,4 +1,5 @@
 module.exports = {
     '/Linux/': require('../../Linux/sidebar'),
-    '/interview/': require('../../interview/sidebar')
+    '/interview/': require('../../interview/sidebar'),
+    '/bugs/': require('../../bugs/sidebar')
 }
