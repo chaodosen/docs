@@ -14,6 +14,7 @@ module.exports = [
             }
         ]
     },
+    { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
     {
         text: '联系我',
         icon: 'reco-account',
