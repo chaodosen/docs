@@ -3,5 +3,5 @@ module.exports = {
     '/interview/': require('../../interview/sidebar'),
     '/bugs/': require('../../bugs/sidebar'),
     '/schedule/': require('../../schedule/sidebar'),
-    '/diary': require('../../diary/sidebar')
+    '/diary/': require('../../diary/sidebar')
 }
