@@ -1,9 +1,10 @@
 module.exports = [
     {
-        title: '导航',
+        title: 'Java体系知识',
         collapsable: false,
         children: [
-            '/guide/welcome'
+            'chap16_reflex'
         ]
+
     }
 ]

@@ -1,9 +1,9 @@
 module.exports = [
     {
-        title: '导航',
+        title: '关于我',
         collapsable: false,
         children: [
-            '/guide/welcome'
+            '/about/about-me'
         ]
     }
 ]

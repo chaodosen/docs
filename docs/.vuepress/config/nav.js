@@ -1,10 +1,18 @@
 module.exports = [
-    {text: '首页',link: '/', icon: 'reco-home'},
-    {text: 'Linux专栏',link: '/Linux/',icon: 'iconfont icon-centos'},
-    {text: 'BUG',link: '/bugs/prob-in-work/method-breakpoints',icon: 'iconfont icon-bug'},
-    {text: '面试题',link: '/interview/Java',icon: 'iconfont icon-mianshi'},
+    { text: '首页', link: '/', icon: 'reco-home' },
     {
-        text:'计划',
+        text: '后端',
+        icon: 'iconfont icon-kafei',
+        items: [
+            { text: 'Linux专栏', link: '/Linux/', icon: 'iconfont icon-centos' },
+            { text: 'JavaSE', link: '/back-end/Java/chap16_reflex/', icon: 'iconfont icon-Coffee' }
+        ]
+    },
+
+    { text: 'BUG', link: '/bugs/prob-in-work/method-breakpoints', icon: 'iconfont icon-bug' },
+    { text: '面试题', link: '/interview/Java', icon: 'iconfont icon-mianshi' },
+    {
+        text: '计划',
         icon: 'iconfont icon-schedule',
         items: [
             {
@@ -15,26 +23,6 @@ module.exports = [
         ]
     },
     { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-    {text: '日记',link: '/diary/2022/11',icon: 'iconfont icon-diary'},
-    {
-        text: '联系我',
-        icon: 'reco-account',
-        items: [
-            {
-                text: '关于我',
-                link: '/about/',
-                icon: 'iconfont icon-wowowo'
-            },
-            {
-                text: 'Github',
-                link: 'https://github.com/coderzds',
-                icon: 'reco-github'
-            },
-            {
-                text: 'CSDN',
-                link: 'https://blog.csdn.net/coderzds',
-                icon: 'reco-csdn'
-            },
-        ]
-    },
+    { text: '日记', link: '/diary/2022/11', icon: 'iconfont icon-diary' },
+    { text: '关于我', link: '/about/about-me', icon: 'iconfont icon-wowowo' }
 ]
