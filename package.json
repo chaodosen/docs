@@ -1,0 +1,28 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node collect-article-data.mjs && vitepress dev docs",
+    "build": "node collect-article-data.mjs && vitepress build docs",
+    "preview": "node collect-article-data.mjs && vitepress preview docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.43.0",
+    "axios": "^1.3.2",
+    "blueimp-md5": "^2.19.0",
+    "dayjs": "^1.11.7",
+    "fast-glob": "^3.2.12",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
+    "unplugin-vue-components": "^0.23.0",
+    "vite": "^4.1.1",
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}
