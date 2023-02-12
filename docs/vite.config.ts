@@ -9,5 +9,6 @@ export default defineConfig({
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       resolvers: [ArcoResolver({ sideEffect: true, resolveIcons: true })]
     })
-  ]
+  ],
+  ssr: { noExternal: ['@arco-design/web-vue'] }
 });
