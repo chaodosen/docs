@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.c529fafe.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{"showArticleMetadata":false,"editLink":false,"lastUpdated":false},"headers":[],"relativePath":"bugs/index.md"}'),s={name:"bugs/index.md"};function n(r,o,c,d,i,p){return a(),t("div")}const f=e(s,[["render",n]]);export{_ as __pageData,f as default};
