@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@antv/g2plot": "2.4.23",
     "@arco-design/web-vue": "^2.43.0",
     "axios": "^1.3.2",
     "blueimp-md5": "^2.19.0",
